@@ -8,8 +8,40 @@ body{
 }
 main{
     background-color: white;
-    width: 500px;
+    width: 600px;
     margin: auto;
-    padding: 10px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
+    padding: 15px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.473);
+    border-radius: 20px;
+}
+iframe{
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.473);
+    position: relative;
+    right: -20px;
+}
+img.lado{
+    float: right;
+}
+h1{
+    font-size: 2em;
+    color: rgb(4, 4, 85);
+}
+h2{
+    font-size: 1.5em;
+    color: rgb(4, 4, 85);
+}
+abbr{
+    text-decoration: none;
+    color: rgb(82, 73, 73);
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(4, 4, 85);
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(26, 26, 255);
 }
